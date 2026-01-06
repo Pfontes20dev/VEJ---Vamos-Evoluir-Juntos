@@ -9,6 +9,45 @@ body {
     max-height: 100vh;
 }
 
+header {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   
+}
+
+div {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+
+h1 {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+ul {
+    display: flex;
+    margin-right: 800px;
+    list-style: none;
+}
+
+li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+
 .letter-v {
     color: green;
 }
@@ -21,6 +60,51 @@ body {
     color: orange;
 }
 
-header {
-    text-align: center;
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 95px;
+    margin-top: 90px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    color: #514b4b;
+    font-size: 19px;
+}
+
+article {
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 13%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    margin: 0 30px
+}
+.consult {
+    font-size: 14px;
+    font-weight: 18;
+    width: 100px;
+    height: 60px;
+    color: black;
+    background: lightgreen;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-us {
+    font-size: 14px;
+    font-weight: 18;
+    width: 100px;
+    height: 60px;
+    color: black;
+    background: rgb(64, 177, 64);
+    border: none;
+    border-radius: 10px;
 }
